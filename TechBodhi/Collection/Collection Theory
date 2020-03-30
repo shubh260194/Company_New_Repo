@@ -1,0 +1,58 @@
+                                   Collection
+ 
+ 
+ removed fixed size structure : growable in nature
+ have underlying data structure 
+ have data insertion , deletion , updation , searching, sorting methods 
+ can store homogeneous and heterogeneous objects 
+ performance wise collections are bad / for critical memory management , better use collections 
+ collection : represent a group of individual objects as a single entity
+ collection framework : group of several classes and interfaces which can be used to represent a group of individual objects as a single entity 
+ collections : utility class , defines several utility methods for collection objects ex. collectons.sort(AL) , sorting, searching etc.
+  ------------------------------------------------------------------------------
+                         Sorting (Asc, Desc, Customized)
+  Comparable (I) - when use default natural sorting order
+  Comparator (I) - when use default customized sorting order
+  ----------------------------------------------------------------------------
+                            Cursors (Retrival)
+  Enumeration (I)
+  Iterator (I)
+  ListIterator (I)
+ ------------------------------------------------------------------------------- 
+                               Utility Classes
+  Arrays (C) - utility  methods applicable for Arrays objects
+  Collections (C) - utility  methods applicable for Collection objects
+  
+  -------------------------------------------------------------------------------
+                               ArrayList vs Vector
+                               
+  1. Every method Not Synchronised // Most methods are Synchronised   
+  2. Multiple threads are allowed to operate // At a time , 1 thread are allowed to operate  
+  3. Not Thread safe // Thread Safe  
+  4. Performance is good relatively // performance is low relatively, increased waiting time 
+  5. 1.2 onwards // 1.0 onwards Legacy class                   
+  
+ --------------------------------------------------------------------------------------------
+                              ArrayList vs LinkedList 
+                              
+  1. best use : retrival // best use : insertion , deletion (in middle)
+  2. worst case : insertion , deletion (in middle) severval shift op 
+    // worst case : retrival starts from 1st element and goes as per addresses stores in nodes
+  3. growable array // doubly linked list
+  4. implements RandomAccess // doesnt implements Random Access
+  
+  ---------------------------------------------------------------------------------------------
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

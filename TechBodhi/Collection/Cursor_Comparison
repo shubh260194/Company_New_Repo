@@ -1,0 +1,10 @@
+                                Difference
+                                
+ property             Enumeration             Iterator         ListIterator
+ applicable       legacy class            universal             for list implemented classes                               
+ movement         only forward            only forward          forward - backward 
+ direction       uni-directional          uni-directional        bi-directional 
+ access           only read               read + remove          read/remove/replace/add
+ how to get    vector - elements()      collection- iterator()   list -listIterator()
+ methods      hasMoreElements()         hasNext()                 9 methods
+              nextElement()             next()

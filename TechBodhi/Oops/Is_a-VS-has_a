@@ -1,0 +1,28 @@
+                              IS - A relation 
+inheritance 
+write once use any where
+parent child relation ex. SinhgadCollege ( child class )is a College ( parent class)
+implements using extends 
+code reusability
+when total functionality is needed
+
+
+
+                                 HAS - A relation
+object creation
+write once use any where
+composition and aggregation 
+ 
+composition :
+ without container object if there is no chance of existing contained objects
+ Strong Association bw container and contained object 
+ ex. without College, departments can't exists 
+ 
+aggregation :
+ without container object if there is chance of existing contained objects
+ Weak Association bw container and contained object 
+ ex. without departments, professors can exist
+ 
+implements using no specific key word  : using object or class reference or use new operator
+code reusability
+when few functionalities are needed
